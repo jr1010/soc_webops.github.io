@@ -11,6 +11,11 @@ body{
   border: none;
   border-radius: 10px;
 }
+.lgn{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
 .prof-pic-d{
   width: 70px;
   display: inline-block;
@@ -23,7 +28,7 @@ body{
 }
 .email{
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   width: 200px;
   height: 50px;
@@ -50,7 +55,7 @@ body{
 }
 .password{
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   width: 200px;
   align-items: center;
@@ -105,14 +110,14 @@ input:focus{
   padding-right: px;
 }
 .rem-me p{
-  font-size: 11px;
+  font-size: 13px;
   font-weight: bold;
 }
 .forgot{
-  font-size:12px;
+  font-size:13px;
   width: 140px;
-  color: rgb(247, 165, 14);
-  padding-top: 5px;
+  color: rgb(253, 135, 0);
+  padding-top: 0px;
   cursor: pointer;
   margin-left: 0px;
 
@@ -155,12 +160,13 @@ input:focus{
   color: rgba(0,0,0,0.7)
 }
 .with{
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 20px;
 }
 .social{
   margin-top: 15px;
   margin-left: 10px;
+  margin-bottom: 50px;
 }
 .social img{
   height: 40px;
@@ -176,6 +182,29 @@ input:focus{
 .social img:active{
   opacity: 0.5;
 }
+.text-box{
+  margin-top: 30px;
+  text-align: left;
+  width:280px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+.feedback{
+  font-weight: bold;
+}
+.textbox{
+  margin-top: 0px;
+  width : 100%;
+  height: 70px;
+  border: none;
+  background-color: rgba(231, 231, 231, 0.693);
+  border-radius: 5px;
+  resize: none;
+  font-size: 16px;
+}
+.textbox:focus{
+  outline: none;
+}
 .homepage{
   display: flex;
   width: 280px;
@@ -184,7 +213,7 @@ input:focus{
   margin: auto;
   margin-top: 50px;
 
-  font-size: 13px;
+  font-size: 14px;
 }
 .iitm a{
   text-decoration: none;
@@ -201,14 +230,19 @@ input:focus{
     font-family: Arial;
   }
   .lgn-bx{
-    height: 600px;
+    height: 780px;
     width:  400px;
     background-color: white;
     text-align: center;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 6%;
     border: none;
     border-radius: 10px;
+  }
+  .lgn{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
   }
   .prof-pic-d{
     width: 70px;
@@ -222,7 +256,7 @@ input:focus{
   }
   .email{
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     width: 200px;
     height: 50px;
@@ -246,10 +280,11 @@ input:focus{
     border-bottom: 1.5px solid rgba(0,0,0,0.34);
     transition: border-bottom 0.5s;
     width: 250px;
+    font-size: 14px;
   }
   .password{
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     width: 200px;
     align-items: center;
@@ -267,6 +302,7 @@ input:focus{
     border: none;
     border-bottom: 1.5px solid grey;
     width: 250px;
+    font-size: 14px;
   }
   .pass-container{
     position: relative;
@@ -304,14 +340,14 @@ input:focus{
     padding-right: px;
   }
   .rem-me p{
-    font-size: 11px;
+    font-size: 13px;
     font-weight: bold;
   }
   .forgot{
-    font-size:12px;
+    font-size:13px;
     width: 140px;
-    color: rgb(247, 165, 14);
-    padding-top: 5px;
+    color: rgb(255, 136, 0);
+    padding-top: 2px;
     cursor: pointer;
     margin-left: 0px;
   
@@ -354,7 +390,7 @@ input:focus{
     color: rgba(0,0,0,0.7)
   }
   .with{
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 20px;
   }
   .social{
@@ -375,6 +411,28 @@ input:focus{
   .social img:active{
     opacity: 0.5;
   }
+  .text-box{
+    margin-top: 30px;
+    text-align: left;
+    width:280px;
+    margin-left: 60px;
+  }
+  .feedback{
+    font-weight: bold;
+  }
+  .textbox{
+    margin-top: 0px;
+    width : 100%;
+    height: 70px;
+    border: none;
+    background-color: rgba(231, 231, 231, 0.693);
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+  }
+  .textbox:focus{
+    outline: none;
+  }
   .homepage{
     display: flex;
     width: 280px;
@@ -383,7 +441,7 @@ input:focus{
     margin: auto;
     margin-top: 50px;
   
-    font-size: 13px;
+    font-size: 14px;
   }
   .iitm a{
     text-decoration: none;

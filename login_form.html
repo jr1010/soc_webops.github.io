@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="styles/login_form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+  <form action="/url" method="GET">
+    <div class="lgn-bx">
+      <div class="prof-pic">
+        <img class = "prof-pic-d" src="pics/SOC.jpg">
+      </div>
+      <div class="lgn">
+        <p>
+          LOGIN PORTAL
+        </p>
+      </div>
+      <div class="email">
+        <p>
+          Username
+        </p>
+        <input type="text" placeholder="Email" required>
+      </div>
+      <div class="password">
+        <p>
+          Password
+        </p>
+        <div class="pass-container">
+          <input type="password" placeholder="Password" id="password" required minlength="6">
+          <i class="fa-solid fa-eye" id="eye"></i>
+        </div>
+      </div>  
+      <div class="rem">
+        <div class="rem-me">
+          <input type="checkbox">
+          <p>Remember me</p>
+        </div>
+        <div class="forgot">
+          <p>Forgot Password?</p>
+        </div>
+      </div>
+      <div class="submit">
+        <button>
+          Sign In
+        </button>
+      </div>
+      <div class="other-options">
+        <div class="or">
+          or
+        </div>
+        <div class="with">
+          Sign in with
+        </div>
+        <div class="social">
+          <img src="pics/fb.png">
+          <img src="pics/ggl.jpg">
+          <img src="pics/twitter.jpg">
+        </div>
+      </div>
+      <div class="text-box">
+        <div class="feedback">
+          <p>Feedback:</p>
+        </div>
+        <textarea class="textbox"></textarea>
+      </div>
+      <div class="homepage">
+        <div class="iitm">
+          <a href="https://www.iitm.ac.in/">
+            IIT M Homepage
+          </a>
+        </div>
+        <div class="signup">
+          New Here? Sign Up.
+        </div>
+      </div>
+    </div>
+  </form>
+    <script src="js/login_from.js"></script>
+  </body>
+</html>
